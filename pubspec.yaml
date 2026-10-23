@@ -1,0 +1,53 @@
+name: peladeiros_sa
+description: "Peladeiros S/A - Compartilhamento nacional de peladas para garantir quórum."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  #web_socket_channel: ^3.0.3
+ # web_socket_conformance_tests: ^3.0.3
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  supabase_flutter: ^2.8.3
+  google_sign_in: ^6.2.2
+  image_picker: ^1.1.2
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  geolocator: ^13.0.2
+  google_maps_flutter: ^2.18.2
+  flutter_rating_bar: ^4.0.1
+  mask_text_input_formatter: ^2.9.0
+  image: ^4.3.0
+  shared_preferences: ^2.3.5
+  url_launcher: ^6.3.1
+  http: ^1.3.0
+  share_plus: ^13.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mockito: ^5.4.5
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/demo_covers/
+    - assets/images/
+    - assets/images/mapfundo.png
+    - lib/img/3basquete.png
+    - lib/img/1pelada.png
+    - lib/img/2volei.png
+    - lib/img/4varios.png
+    - lib/img/5campos.png
+    - lib/img/6juizes.png
+    - lib/img/7goleiros.png
+    - lib/img/8map.png
